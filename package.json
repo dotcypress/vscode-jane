@@ -1,0 +1,35 @@
+{
+  "name": "vscode-jane",
+  "version": "0.0.0",
+  "description": "vscode theme",
+  "categories": [
+    "Themes"
+  ],
+  "author": "Vitaly Domnikov <dotcypress@gmail.com>",
+  "publisher": "dotcypress",
+  "license": "MIT",
+  "homepage": "https://github.com/dotcypress/vscode-jane#readme",
+  "bugs": {
+    "url": "https://github.com/dotcypress/vscode-jane/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotcypress/vscode-jane.git"
+  },
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jane One",
+        "uiTheme": "vs-dark",
+        "path": "./jane-one-theme.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "scripts": {
+    "generate": "node index.js"
+  }
+}

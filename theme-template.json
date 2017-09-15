@@ -1,0 +1,389 @@
+{
+  "name": "@name",
+  "tokenColors": [
+    {
+      "name": "Global settings",
+      "settings": {
+        "background": "@background",
+        "foreground": "@foreground"
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": {
+        "foreground": "@green"
+      }
+    },
+    {
+      "name": "Boolean",
+      "scope": "constant.language.boolean",
+      "settings": {
+        "foreground": "@cyan"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "@yellow"
+      }
+    },
+    {
+      "name": "Identifier",
+      "scope": "variable, support.variable, support.class, support.constant, meta.definition.variable entity.name.function",
+      "settings": {
+        "foreground": "@foreground"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword, modifier, variable.language.this, support.type.object, constant.language",
+      "settings": {
+        "foreground": "@magenta"
+      }
+    },
+    {
+      "name": "Function call",
+      "scope": "entity.name.function, support.function",
+      "settings": {
+        "foreground": "@cyan"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage.type, storage.modifier",
+      "settings": {
+        "foreground": "@yellow"
+      }
+    },
+    {
+      "name": "Modules",
+      "scope": "support.module, support.node",
+      "settings": {
+        "foreground": "@brightYellow"
+      }
+    },
+    {
+      "name": "Type",
+      "scope": "support.type",
+      "settings": {
+        "foreground": "@blue"
+      }
+    },
+    {
+      "name": "Type",
+      "scope": "entity.name.type, entity.other.inherited-class",
+      "settings": {
+        "foreground": "@blue"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "foreground": "@muted"
+      }
+    },
+    {
+      "name": "Class",
+      "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "@green",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Class variable",
+      "scope": "variable.object.property",
+      "settings": {
+        "foreground": "@green"
+      }
+    },
+    {
+      "name": "Class method",
+      "scope": "meta.definition.method entity.name.function",
+      "settings": {
+        "foreground": "@green"
+      }
+    },
+    {
+      "name": "Function definition",
+      "scope": "meta.function entity.name.function",
+      "settings": {
+        "foreground": "@red"
+      }
+    },
+    {
+      "name": "Template expression",
+      "scope": "template.expression.begin, template.expression.end",
+      "settings": {
+        "foreground": "@cyan"
+      }
+    },
+    {
+      "name": "YAML key",
+      "scope": "entity.name.tag.yaml",
+      "settings": {
+        "foreground": "@red"
+      }
+    },
+    {
+      "name": "JSON key",
+      "scope": "meta.object-literal.key, meta.object-literal.key string, support.type.property-name.json",
+      "settings": {
+        "foreground": "@white"
+      }
+    },
+    {
+      "name": "JSON constant",
+      "scope": "constant.language.json",
+      "settings": {
+        "foreground": "@red"
+      }
+    },
+    {
+      "name": "CSS class",
+      "scope": "entity.other.attribute-name.class",
+      "settings": {
+        "foreground": "@yellow"
+      }
+    },
+    {
+      "name": "CSS ID",
+      "scope": "entity.other.attribute-name.id",
+      "settings": {
+        "foreground": "@red"
+      }
+    },
+    {
+      "name": "CSS tag",
+      "scope": "source.css entity.name.tag",
+      "settings": {
+        "foreground": "@red"
+      }
+    },
+    {
+      "name": "HTML tag outer",
+      "scope": "meta.tag, punctuation.definition.tag",
+      "settings": {
+        "foreground": "@cyan"
+      }
+    },
+    {
+      "name": "HTML tag inner",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "@red"
+      }
+    },
+    {
+      "name": "HTML tag attribute",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "@yellow"
+      }
+    },
+    {
+      "name": "Markdown heading",
+      "scope": "markup.heading",
+      "settings": {
+        "foreground": "@yellow"
+      }
+    },
+    {
+      "name": "Markdown link text",
+      "scope": "text.html.markdown meta.link.inline, meta.link.reference",
+      "settings": {
+        "foreground": "@red"
+      }
+    },
+    {
+      "name": "Markdown list item",
+      "scope": "text.html.markdown beginning.punctuation.definition.list",
+      "settings": {
+        "foreground": "@magenta"
+      }
+    },
+    {
+      "name": "Markdown italic",
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "@red",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown bold",
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "@red",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown bold italic",
+      "scope": "markup.bold markup.italic, markup.italic markup.bold",
+      "settings": {
+        "foreground": "@red",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "INI property name",
+      "scope": "keyword.other.definition.ini",
+      "settings": {
+        "foreground": "@red"
+      }
+    },
+    {
+      "name": "INI section title",
+      "scope": "entity.name.section.group-title.ini",
+      "settings": {
+        "foreground": "@cyan"
+      }
+    }
+  ],
+  "colors": {
+    "activityBar.background": "@background",
+    "activityBar.border": "@transparent",
+    "activityBar.dropBackground": "@dropBackground",
+    "activityBar.foreground": "@foreground",
+    "activityBarBadge.background": "@badgeBackground",
+    "activityBarBadge.foreground": "@background",
+    "badge.background": "@badgeBackground",
+    "badge.foreground": "@background",
+    "button.background": "@buttonBackground",
+    "button.foreground": "@foreground",
+    "button.hoverBackground": "@hoverBackground",
+    "contrastActiveBorder": "@transparent",
+    "contrastBorder": "@transparent",
+    "debugToolBar.background": "@background",
+    "dropdown.background": "@controlBackground",
+    "dropdown.border": "@controlBorder",
+    "dropdown.foreground": "@foreground",
+    "editor.background": "@background",
+    "editor.foreground": "@foreground",
+    "editor.lineHighlightBorder": "@transparent",
+    "editor.rangeHighlightBackground": "@highlightBackground",
+    "editorGroup.background": "@background",
+    "editorGroup.border": "@transparent", 
+    "editorGroup.dropBackground": "@dropBackground",
+    "editorGroupHeader.noTabsBackground": "@highlightBackground",
+    "editorGroupHeader.tabsBackground": "@background",
+    "editorGroupHeader.tabsBorder": "@border",
+    "editorHoverWidget.background": "@controlBackground",
+    "editorLineNumber.foreground": "@muted",
+    "editorMarkerNavigation.background": "@background",
+    "editorWidget.background": "@controlBackground",
+    "errorForeground": "@foreground",
+    "extensionButton.prominentBackground": "@buttonBackground",
+    "extensionButton.prominentForeground": "@foreground",
+    "extensionButton.prominentHoverBackground": "@hoverBackground",
+    "focusBorder": "@transparent",
+    "foreground": "@foreground",    
+    "input.background": "@controlBackground",
+    "input.border": "@controlBorder",
+    "input.foreground": "@foreground",
+    "input.placeholderForeground": "@muted",
+    "inputOption.activeBorder": "@accent",
+    "inputValidation.errorBackground": "@errorBackground",
+    "inputValidation.errorBorder": "@transparent",
+    "inputValidation.infoBackground": "@infoBackground",
+    "inputValidation.infoBorder": "@transparent",
+    "inputValidation.warningBackground": "@warningBackground",
+    "inputValidation.warningBorder": "@transparent",
+    "list.activeSelectionBackground": "@selectionBackground",
+    "list.activeSelectionForeground": "@selectionForeground",
+    "list.dropBackground": "@dropBackground",
+    "list.focusBackground": "@focusBackground",
+    "list.focusForeground": "@highlightForeground",
+    "list.highlightForeground": "@highlightForeground",
+    "list.hoverBackground": "@highlightBackground",
+    "list.hoverForeground": "@highlightForeground",
+    "list.inactiveSelectionBackground": "@highlightBackground",
+    "list.inactiveSelectionForeground": "@foreground",
+    "notification.background": "@popupBackground",
+    "notification.buttonBackground": "@buttonBackground",
+    "notification.buttonForeground": "@foreground",
+    "notification.buttonHoverBackground": "@hoverBackground",
+    "notification.errorBackground": "@errorBackground",
+    "notification.errorForeground": "@foreground",
+    "notification.foreground": "@foreground",
+    "notification.infoBackground": "@infoBackground",
+    "notification.infoForeground": "@foreground",
+    "notification.warningBackground": "@warningBackground",
+    "notification.warningForeground": "@foreground",
+    "panel.background": "@background",
+    "panel.border": "@border",
+    "panelTitle.activeBorder": "@accent",
+    "panelTitle.activeForeground": "@foreground",   
+    "panelTitle.inactiveForeground": "@muted",
+    "peekView.border": "@border",
+    "peekViewEditor.background": "@background",
+    "peekViewResult.background": "@background",
+    "peekViewTitle.background": "@background",
+    "pickerGroup.border": "@border",
+    "pickerGroup.foreground": "@foreground",
+    "progressBar.background": "@accent",
+    "scrollbar.shadow": "@transparent",
+    "scrollbarSlider.activeBackground": "@hoverBackground",
+    "scrollbarSlider.background": "@highlightBackground",
+    "scrollbarSlider.hoverBackground": "@hoverBackground",
+    "selection.background:": "@selectionBackground",
+    "sideBar.background": "@background",
+    "sideBar.border": "@transparent",
+    "sideBar.foreground": "@foreground",
+    "sideBarSectionHeader.background": "@background",
+    "sideBarSectionHeader.foreground": "@muted",
+    "sideBarTitle.foreground": "@muted",
+    "statusBar.background": "@background",
+    "statusBar.border": "@background",
+    "statusBar.debuggingBackground": "@debuggingBackground",
+    "statusBar.debuggingBorder": "@transparent",
+    "statusBar.debuggingForeground": "@highlightForeground",
+    "statusBar.foreground": "@muted",
+    "statusBar.noFolderBackground": "@background",
+    "statusBar.noFolderBorder": "@transparent",
+    "statusBar.noFolderForeground": "@foreground",
+    "statusBarItem.activeBackground": "@highlightBackground",
+    "statusBarItem.hoverBackground": "@hoverBackground",
+    "statusBarItem.prominentBackground": "@infoBackground",
+    "statusBarItem.prominentHoverBackground": "@hoverBackground",
+    "tab.activeBackground": "@background",
+    "tab.activeBorder": "@accent",
+    "tab.activeForeground": "@foreground",
+    "tab.border": "@background",
+    "tab.inactiveBackground": "@background",    
+    "tab.inactiveForeground": "@muted",
+    "tab.unfocusedActiveBorder": "@transparent",
+    "tab.unfocusedActiveForeground": "@foreground",
+    "tab.unfocusedInactiveForeground": "@muted",
+    "terminal.ansiBrightBlack": "@brightBlack",
+    "terminal.ansiBrightBlue": "@brightBlue",
+    "terminal.ansiBrightCyan": "@brightCyan",
+    "terminal.ansiBrightGreen": "@brightGreen",
+    "terminal.ansiBrightMagenta": "@brightMagenta",
+    "terminal.ansiBrightRed": "@brightRed",
+    "terminal.ansiBrightWhite": "@brightWhite",
+    "terminal.ansiBrightYellow": "@brightYellow",
+    "terminal.ansiBlue": "@cyan",
+    "terminal.ansiBlack": "@black",
+    "terminal.ansiCyan": "@cyan",
+    "terminal.ansiGreen": "@green",
+    "terminal.ansiMagenta": "@magenta",
+    "terminal.ansiRed": "@red",
+    "terminal.ansiWhite": "@white",
+    "terminal.ansiYellow": "@yellow",
+    "terminal.background": "@background",
+    "terminal.foreground": "@foreground",
+    "titleBar.activeBackground": "@background",
+    "titleBar.activeForeground": "@foreground",
+    "titleBar.inactiveBackground": "@background",
+    "titleBar.inactiveForeground": "@foreground",
+    "walkThrough.embeddedEditorBackground": "#ffffff05",
+    "welcomePage.buttonBackground": "@highlightBackground",
+    "welcomePage.buttonHoverBackground": "@hoverBackground",
+    "widget.shadow": "@transparent"
+  }
+}
