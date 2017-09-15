@@ -1,6 +1,6 @@
 {
   "name": "vscode-jane",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "vscode theme",
   "categories": [
     "Themes"
@@ -28,7 +28,7 @@
       }
     ]
   },
-  "icon": "icon.png",
+  "icon": "docs/icon.png",
   "scripts": {
     "generate": "node index.js"
   }
