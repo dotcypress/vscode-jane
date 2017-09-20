@@ -1,5 +1,5 @@
 const { writeFileSync } = require('fs')
-const themeTemplate = require('./theme-template')
+const janeTemplate = require('./jane-template')
 
 const themes = [
   {
@@ -27,22 +27,22 @@ const themes = [
     controlBackground: '#272d33',
     controlBorder: '#6f767b80',
     border: '#6f767b50',    
-    black: '#252525',
-    blue: '#7eaeec',
-    cyan: '#57a1c7',
+    black: '#121212',
+    blue: '#367bea',
+    cyan: '#57b6c7',
     green: '#99c794',
     magenta: '#d8a2d8',
     red: '#e77777',
-    white: '#dedeee',
-    yellow: '#f9b05d',    
-    brightBlack: '#444444',
+    white: '#f7f7f7',
+    yellow: '#ffba51',    
+    brightBlack: '#030303',
     brightBlue: '#1b87e8',
-    brightCyan: '#6699cc',
+    brightCyan: '#51c0e4',
     brightGreen: '#76c56d',
     brightMagenta: '#e871e8',
-    brightRed: '#ff5555',
+    brightRed: '#ec4526',
     brightWhite: '#ffffff',
-    brightYellow: '#e2ca46'
+    brightYellow: '#e8e651'
   }
 ]
 
@@ -63,7 +63,7 @@ function traverse (target, variable, value) {
 }
 
 function buildTheme (setup) {
-  const theme = Object.assign({}, JSON.parse(JSON.stringify(themeTemplate)))
+  const theme = Object.assign({}, JSON.parse(JSON.stringify(janeTemplate)))
   Object.keys(setup).forEach((key) => traverse(theme, key, setup[key])) 
   writeFileSync(`${setup.id}-theme.json`, JSON.stringify(theme, null, 2))
 }

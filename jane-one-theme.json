@@ -19,14 +19,14 @@
       "name": "Boolean",
       "scope": "constant.language.boolean",
       "settings": {
-        "foreground": "#57a1c7"
+        "foreground": "#57b6c7"
       }
     },
     {
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#f9b05d"
+        "foreground": "#ffba51"
       }
     },
     {
@@ -47,35 +47,35 @@
       "name": "Function call",
       "scope": "entity.name.function, support.function",
       "settings": {
-        "foreground": "#57a1c7"
+        "foreground": "#57b6c7"
       }
     },
     {
       "name": "Storage",
       "scope": "storage.type, storage.modifier",
       "settings": {
-        "foreground": "#f9b05d"
+        "foreground": "#ffba51"
       }
     },
     {
       "name": "Modules",
       "scope": "support.module, support.node",
       "settings": {
-        "foreground": "#e2ca46"
+        "foreground": "#e8e651"
       }
     },
     {
       "name": "Type",
       "scope": "support.type",
       "settings": {
-        "foreground": "#7eaeec"
+        "foreground": "#367bea"
       }
     },
     {
       "name": "Type",
       "scope": "entity.name.type, entity.other.inherited-class",
       "settings": {
-        "foreground": "#7eaeec"
+        "foreground": "#367bea"
       }
     },
     {
@@ -118,7 +118,7 @@
       "name": "Template expression",
       "scope": "template.expression.begin, template.expression.end",
       "settings": {
-        "foreground": "#57a1c7"
+        "foreground": "#57b6c7"
       }
     },
     {
@@ -132,7 +132,7 @@
       "name": "JSON key",
       "scope": "meta.object-literal.key, meta.object-literal.key string, support.type.property-name.json",
       "settings": {
-        "foreground": "#dedeee"
+        "foreground": "#f7f7f7"
       }
     },
     {
@@ -146,7 +146,7 @@
       "name": "CSS class",
       "scope": "entity.other.attribute-name.class",
       "settings": {
-        "foreground": "#f9b05d"
+        "foreground": "#ffba51"
       }
     },
     {
@@ -167,7 +167,7 @@
       "name": "HTML tag outer",
       "scope": "meta.tag, punctuation.definition.tag",
       "settings": {
-        "foreground": "#57a1c7"
+        "foreground": "#57b6c7"
       }
     },
     {
@@ -181,14 +181,14 @@
       "name": "HTML tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#f9b05d"
+        "foreground": "#ffba51"
       }
     },
     {
       "name": "Markdown heading",
       "scope": "markup.heading",
       "settings": {
-        "foreground": "#f9b05d"
+        "foreground": "#ffba51"
       }
     },
     {
@@ -240,7 +240,7 @@
       "name": "INI section title",
       "scope": "entity.name.section.group-title.ini",
       "settings": {
-        "foreground": "#57a1c7"
+        "foreground": "#57b6c7"
       }
     }
   ],
@@ -359,24 +359,24 @@
     "tab.unfocusedActiveBorder": "#00000000",
     "tab.unfocusedActiveForeground": "#dedeee",
     "tab.unfocusedInactiveForeground": "#ffffff4d",
-    "terminal.ansiBrightBlack": "#444444",
+    "terminal.ansiBrightBlack": "#030303",
     "terminal.ansiBrightBlue": "#1b87e8",
-    "terminal.ansiBrightCyan": "#6699cc",
+    "terminal.ansiBrightCyan": "#51c0e4",
     "terminal.ansiBrightGreen": "#76c56d",
     "terminal.ansiBrightMagenta": "#e871e8",
-    "terminal.ansiBrightRed": "#ff5555",
+    "terminal.ansiBrightRed": "#ec4526",
     "terminal.ansiBrightWhite": "#ffffff",
-    "terminal.ansiBrightYellow": "#e2ca46",
-    "terminal.ansiBlue": "#57a1c7",
-    "terminal.ansiBlack": "#252525",
-    "terminal.ansiCyan": "#57a1c7",
+    "terminal.ansiBrightYellow": "#e8e651",
+    "terminal.ansiBlue": "#367bea",
+    "terminal.ansiBlack": "#121212",
+    "terminal.ansiCyan": "#57b6c7",
     "terminal.ansiGreen": "#99c794",
     "terminal.ansiMagenta": "#d8a2d8",
     "terminal.ansiRed": "#e77777",
-    "terminal.ansiWhite": "#dedeee",
-    "terminal.ansiYellow": "#f9b05d",
+    "terminal.ansiWhite": "#cccccc",
+    "terminal.ansiYellow": "#ffba51",
     "terminal.background": "#2e353e",
-    "terminal.foreground": "#dedeee",
+    "terminal.foreground": "#f1f1f1",
     "titleBar.activeBackground": "#2e353e",
     "titleBar.activeForeground": "#dedeee",
     "titleBar.inactiveBackground": "#2e353e",
