@@ -29,7 +29,7 @@ const themes = [
     border: '#6f767b50',    
     black: '#121212',
     blue: '#367bea',
-    cyan: '#57b6c7',
+    cyan: '#57b1c7',
     green: '#99c794',
     magenta: '#d8a2d8',
     red: '#e77777',
@@ -40,7 +40,7 @@ const themes = [
     brightCyan: '#51c0e4',
     brightGreen: '#76c56d',
     brightMagenta: '#e871e8',
-    brightRed: '#ec4526',
+    brightRed: '#ff5653',
     brightWhite: '#ffffff',
     brightYellow: '#e8e651'
   }
