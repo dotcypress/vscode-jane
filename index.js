@@ -3,53 +3,53 @@ const janeTemplate = require('./jane-template')
 
 const themes = [
   {
-    id: 'jane-one',
-    name: 'Jane One',
+    id: 'jane-two',
+    name: 'Jane Two',
     transparent: '#00000000',
-    muted: '#ffffff4d',
-    background: '#2e353e',
+    muted: '#e4e4e444',
+    background: '#292929',
     dropBackground: '#39424c',
     buttonBackground: '#586471',
-    highlightBackground: '#ffffff10',
-    foreground: '#dedeee',
-    highlightForeground: '#ffffff',
-    accent: '#f9b05d',
-    badgeBackground: '#f9b05d',
+    highlightBackground: '#5d595c20',
+    foreground: '#e0e0e0',
+    highlightForeground: '#fafafa',
+    accent: '#ff983d',
+    badgeBackground: '#ff983d',
     focusBackground: '#367bea33',
     hoverBackground: '#367bea33',
-    selectionBackground: '#ffffff20',
-    selectionForeground: '#ffffff',
+    selectionBackground: '#5d595c30',
+    selectionForeground: '#fafafa',
     errorBackground: '#ff5555',
     debuggingBackground: '#925792',
     warningBackground: '#925792',
     infoBackground: '#367bea',
     popupBackground: '#495563',
-    controlBackground: '#272d33',
-    controlBorder: '#6f767b80',
-    border: '#6f767b50',    
+    controlBackground: '#292929',
+    controlBorder: '#5d595c80',
+    border: '#5d595c40',
     black: '#121212',
     blue: '#367bea',
     cyan: '#57b1c7',
     green: '#99c794',
     magenta: '#d8a2d8',
     red: '#e77777',
-    white: '#f7f7f7',
-    yellow: '#ffba51',    
+    white: '#e0e0e0',
+    yellow: '#ffba51',
     brightBlack: '#030303',
     brightBlue: '#1b87e8',
     brightCyan: '#51c0e4',
     brightGreen: '#76c56d',
     brightMagenta: '#e871e8',
     brightRed: '#ff5653',
-    brightWhite: '#ffffff',
+    brightWhite: '#fafafa',
     brightYellow: '#e8e651'
   }
 ]
 
-function traverse (target, variable, value) {
+function traverse(target, variable, value) {
   if (typeof target === 'string') {
     return target.replace(`@${variable}`, value)
-  }  
+  }
   if (typeof target === 'array') {
     return target.map((item) => traverse(item, variable, value))
   }
@@ -62,9 +62,9 @@ function traverse (target, variable, value) {
   return target
 }
 
-function buildTheme (setup) {
+function buildTheme(setup) {
   const theme = Object.assign({}, JSON.parse(JSON.stringify(janeTemplate)))
-  Object.keys(setup).forEach((key) => traverse(theme, key, setup[key])) 
+  Object.keys(setup).forEach((key) => traverse(theme, key, setup[key]))
   writeFileSync(`${setup.id}-theme.json`, JSON.stringify(theme, null, 2))
 }
 
